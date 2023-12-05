@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+    
+    .navbar{
+        position: absolute;
+        background-color: #66fcf1;
+        color: black;
+    }
+    .navbar .navlinks{
+        color: black;
+    }
+    .section1{ 
+        width: 100%;
+        background-image: url("../images/vecteezy_holiday-firework-explode-new-year-celebration-seamless-loop_24243010_440.gif");
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 90vh;
+    }
+    .section1 h2{
+        width: 80%;
+    }
+    .vline{display: none;
+        position: relative;
+        left: 15%;
+        height: 1.5px;
+        top: 10%;
+        width: 40%;
+        background-color: #66fcf1;
+
+    }
+    .section1 .utxt{ 
+        position: relative;
+        background-color: #00000000;
+        top:10%;
+        left: 15%;
+        font-size: 1.5rem;
+    }
+    .section1 .cultxt{ 
+        position: relative;
+        background-color: #00000000;
+        top: 35px;
+        left: 15%;
+        font-size: 4rem;
+    }
+    .section1 .ltxt{
+        position: relative;
+        background-color: #00000000;
+        top:10%;
+        left: 15%;
+        font-size: 1.5rem;
+    }
+    .section1 .festtxt{
+        position: relative;
+        background-color: #00000000;
+        top:5%;
+        width: 95%;
+        left: 10px;
+        font-size: 4.2rem;
+    }
+    .section2{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+  }

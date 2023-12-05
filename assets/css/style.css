@@ -1,0 +1,438 @@
+*{
+    background-color: #000000;
+    color: #66fcf1;
+}
+.preloader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    z-index: 999;
+}
+.preloader img{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.navbar{
+    z-index: 998;
+    
+}
+.navbar .navlinks{
+    font-size: 1.5rem;
+    background: transparent;
+   
+
+}
+.menubutton{
+    display: none;
+}
+.navlinks a{
+    color: #66fcf1;
+    padding: 5px;
+    text-decoration: none;
+}
+.logo{
+    background: transparent;
+}
+.section1{
+    height: 90vh;
+    background-image: url("../images/vecteezy_holiday-firework-explode-new-year-celebration-seamless-loop_24243010_440.gif");
+    background-size: cover;
+}
+.section1 h2{
+    width: 800px;
+}
+.vline{
+    position: relative;
+    left: 15%;
+    height: 1.5px;
+    top: 55px;
+    width: 275px;
+    background-color: #66fcf1;
+}
+.section1 .utxt{
+    position: relative;
+    background-color: #00000000;
+    top:10%;
+    left: 15%;
+    font-size: 2rem;
+}
+.section1 .cultxt{
+    position: relative;
+    background-color: #00000000;
+    top: 35px;
+    left: 20%;
+    font-size: 6rem;
+}
+.section1 .ltxt{
+    position: relative;
+    background-color: #00000000;
+    top:15px;
+    left: 30%;
+    font-size: 2rem;
+}
+.section1 .festtxt{
+    position: relative;
+    background-color: #00000000;
+    top:0px;
+    left: 40%;
+    font-size: 8.5rem;
+}
+
+.section2 .block1{
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px 0 70px;
+}
+.block1 div{
+    height: 180px;
+    width: 180px;
+    border: #66fcf1 1px solid;
+}
+
+.section2 .block2{
+    display: flex;
+    background:transparent;
+    justify-content: space-between;
+    padding: 0 70px 0 70px;
+}
+
+.section2-inside a{
+    text-decoration: none;
+    color: #66fcf1;
+}
+.block2 div{
+    height: 180px;
+    width: 180px;
+    border: #66fcf1 1px solid;
+}
+.section2 .block3{
+    display: flex;
+    background:transparent;
+    justify-content: space-between;
+    padding: 0 70px 0 70px;
+}
+.block3 div{
+    height: 180px;
+    width: 180px;
+    border: #66fcf1 1px solid;
+}
+.mtxt{
+    font-size: 2rem;
+    width: 180px;
+    height: 50px;
+    background-color:#0b0c10;
+    opacity: 75%;
+    position: relative;
+    top: -75px;
+    text-align: center;
+}
+    
+.s2head{
+    font-size: 3rem;
+    color: #66fcf1;
+    text-align: center;
+}
+.s2mline{
+    height: 2px;
+    width:250px;
+    background-color: #66fcf1;
+    margin-bottom: 20px;
+    position: relative;
+    left: 550px;
+}
+
+.footer{
+    height: 200px;
+    z-index: 999;
+
+}
+.footer h1{
+   padding-top: 30px;
+    width: 400px;
+    position: relative;
+    left: 43%;
+}
+.footer .copyright{
+    width: 400px;
+    position: relative;
+    left: 42%;
+}
+.footer .footerlinks{
+    display: flex;
+    width: 600px;
+    text-align: center;
+    position: relative;
+    left: 30%;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: #66fcf1;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+
+
+
+/*Contactus css-----------------------------------------------------------------------------------*/
+#contact-body{
+    overflow-x:clip;
+}
+.bgimgcon-left{
+    position: absolute;
+    height: 400px;
+    top: -127px;
+    left: -220px;
+}
+.bgimgcon-right{
+    position: absolute;
+    height: 600px;
+    bottom: -65px;
+    right: -322px;
+}
+.contact{
+    height: 500px;
+}
+.msg h1{
+    position: relative;
+    top:25px;
+    left: 30%;
+    font-size: 4rem;
+    width: 600px;
+}
+.msg p{
+    position: relative;
+    top: 15px;
+    left: 40%;
+    font-size: 2rem;
+    width: 300px;
+}
+.form{
+    width: 800px;
+    position: absolute;
+    left: 8%;
+}
+.form .info{
+    display: flex;
+    position: relative;
+    left: 30%;
+    top:50px;
+    width: 600px;
+}
+.form input{
+   height: 40px;
+    margin: 10px;
+    width: 200px;
+    border: 1px #66fcf1 solid;
+}
+.form textarea{
+    height: 150px;
+    width: 400px;
+    position: relative;
+    left: 45%;
+    top: 60px;
+    color: #66fcf1;
+    border: 1px #66fcf1 solid;
+}
+
+.form .btn{
+    position: relative;
+    left: 58%;
+    top: 70px;
+    width: 200px;
+    border: 1px #66fcf1 solid;
+}
+
+/*signin css---------------------------------------------------------------------------------*/
+.signin-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/gif1.gif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.signin-form{
+    width: 90%;
+    position: absolute;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px 60px 70px;
+    text-align: center;
+    background: transparent;
+}
+.signin-form h1{
+    font-size: 3rem;
+    margin-bottom: 60px;
+    position: relative;
+    background: transparent;
+}
+.input{
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    border: #66fcf1 1px solid;
+    width: 350px;
+    background: transparent;
+}
+input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    background: transparent;
+}
+.input i{
+    padding: 15px;
+    background: transparent;
+}
+.signin-form p{
+    text-align: center;
+    font-size: 1rem;
+    background: transparent;
+}
+.signin-form a{
+    text-decoration: none;
+    background: transparent;
+}
+
+.btn button{
+    height: 5 0px;
+    width: 200px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: #66fcf1;
+    color: #000000;
+    cursor: pointer;
+}
+
+/*artical css--------------------------------------------------------------------------------*/
+
+.caro-item{
+    width: 80%;height: 80vh;
+    position: relative;
+    left: 10%;
+}
+
+.caro-container .citem1{
+    background-color: darkkhaki;
+}
+.caro-container .citem2{
+    background-color: antiquewhite;
+}
+.caro-container .citem3{
+    background-color: darkgray;
+}
+.caro-container .citem4{
+    background-color: burlywood;
+}
+.caro-item .citem1-btmimg{
+    position: absolute;
+    bottom: 0;
+    background: transparent;
+    width: 100%;
+}
+.caro-indicate{
+    bottom: -15px;
+    opacity: 50%;
+}
+.blockdiv{
+     position: absolute;
+    background-color: #00000000;
+}
+.blockdiv .citem1-head{
+    color: #000000;
+    background-color: #00000000;
+    font-size: 4rem;
+    opacity: 80%;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.citem1-divider{
+    position: absolute;
+    background-color: #00000000;
+    top: 100px;
+    width: 46%;
+    left: 25px;
+}
+.citem-info{
+    background-color: #00000020;
+    color: #000000;
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+}
+.citem-info p{
+    color: #000000;
+    background-color: #00000000;
+    font-size: 1.2rem;
+}
+
+/* DemoMonth css......................................................................1 */
+
+.heading h1{
+    color: bisque;
+    font-family: cursive;
+}
+.festivals{
+    width: 100%;
+    height: 85vh;
+    border: 1px solid #66fcf1;
+    display: flex;
+    margin-top: 20px;
+}
+.festivelist{
+    width: 35%;
+    height: 85vh;
+    border: 1px solid #66fcf1;
+}
+.festiveinfo{
+    width: 65%;
+    height: 85vh;
+    border: 1px solid #66fcf1;
+}
+.festhead{
+    border: 1px solid #66fcf1;
+    margin: 5px;
+    padding: 10px;
+}
+.festhead h2:hover{
+    font-size: 2.5rem;
+}
+.festinfodiv{
+    height: 83vh;
+    margin: 5px;
+    border: 1px solid #66fcf1;
+    padding: 5px;
+    display: none;
+}
+.festinfodiv p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.festinfodiv .festimg
+{
+    width: 50%;
+    height: 50vh;
+    float: left;
+    margin: 10px 30px 0 10px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+
+}
